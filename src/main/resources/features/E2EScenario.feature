@@ -22,3 +22,12 @@ Feature: Store E2E Scenario to check Store Website Functionality
     And the shopping cart is now empty
       # Step 6: Logout
     And user Log out successfully
+
+#    Scenario Outline:
+#    Given the user navigates to the login page
+#    When user enter valid "<username>" and "<password>" then login
+#    Then the user should be able to login successfully
+#    Examples:
+#      | username | password |
+#        |test1 | test1 |
+#        |test2 | test2 |
